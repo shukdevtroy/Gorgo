@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* --- Header Section Start ---  */
+.header-section{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #fff;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 15%;
+}
+.logo img{
+    width: 70%;
+}
+.menu-item{
+    width: 60%;
+}
+.menu-item ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+}
+.menu-item ul li a{
+    font-size: 16px;
+    color: #16122F;
+    font-weight: 500;
+}
+.menu-btn{
+    width: 25%;
+    text-align: end;
+}
+.btn:hover{
+    background-color: grey;
+    color: yellow;
+}
+.btn{
+    padding: 15px 30px;
+    background-color: #FF6162;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* --- Header Section End ---  */
+
+/* --- Banner Section Start ---  */
+.banner-section{
+    width: 100%;
+    padding: 70px 0;
+    background-color: #fff;
+}
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-title h1{
+    font-size: 45px;
+    color: #292640;
+    line-height: 52px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.banner-title p{
+    font-size: 16px;
+    margin: 25px 0px;
+    line-height: 28px;
+    color: rgb(146, 146, 146);
+}
+.banner-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #444343;
+    color: #444343;
+}
+.banner-icon i{
+    font-size: 16px;
+    margin-left: 8px;
+    margin-top: 7px;
+}
+/* --- Banner Section End ---  */
+
+/* --- Project Section Start ---  */
+.project-section{
+    width: 100%;
+    background-color: #fff;
+    padding: 70px 0px;
+}
+.project-content{
+    text-align: center;
+}
+.project-content h1{
+    font-size: 35px;
+    color: #292640;
+    text-transform: capitalize;
+}
+.project-content p{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+}
+.project-photos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.photos{
+    width: 25%;
+    text-align: center;
+}
+.photos img{
+    width: 90%;
+    box-shadow: 0px 6px 20px 0px rgb(207, 207, 207);
+}
+.photos p{
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+/* --- Project Section End ---  */
+
+/* --- Divider Section End ---  */
+.divider-section{
+    width: 100%;
+    padding: 70px 0;
+    background-color: #fff;
+}
+.divider{
+    width: 2px;
+    height: 70px;
+    background-color: #A8A8A8;
+    margin: auto;
+}
+/* --- Divider Section End ---  */
+
+/* --- Features Section End ---  */
+.feature-section{
+    width: 100%;
+    background-color: #fff;
+    padding: 70px 0;
+}
+.feature-heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.feature-heading h1{
+    font-size: 35px;
+    color: #292640;
+    text-transform: capitalize;
+}
+.feature-heading p{
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 10px;
+}
+.feature-content{
+    display: flex;
+    justify-content: space-between;
+}
+.three-content{
+    background-color: #F5F5F5;
+    width: 33.3%;
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+}
+.three-content h5{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #444343;
+}
+.three-content p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #7c7c7c;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #FF6162;
+    margin-left: 40%;
+}
+.icon i{
+    margin-top: 15px;
+    font-size: 20px;
+}
+/* --- Features Section End ---  */
+
+/* --- Footer Section Start ---  */
+.footer-section{
+    width: 100%;
+    background-color: #292640;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+.footer-content{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.footer-btn{
+    text-align: center !important;
+}
+.footer-logo{
+    text-align: center;
+    margin-top: 30px;
+}
+.footer-logo img{
+    width: 150px;
+}
+.footer-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #8D8B98;
+    color: #292640;
+    margin-left: 94%;
+}
+.footer-icon i{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+/* --- Footer Section End ---  */
